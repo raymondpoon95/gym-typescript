@@ -53,6 +53,7 @@ const Home = ({ setSelectedPage }: Props) => {
               Body Now.
             </p>
           </motion.div>
+
           {/* Actions */}
           <motion.div
             initial="hidden"

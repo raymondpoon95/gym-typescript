@@ -4,3 +4,9 @@ export enum SelectedPage {
   OurClasses = "ourclasses",
   ContactUs = "contactus",
 }
+
+export type BenefitType = {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+};
